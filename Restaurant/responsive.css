@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1200px){
+    .about .col-one {
+        width: 100%;
+    }
+    .about .col-two {
+        width: 50%;
+    }
+    .about .col-three {
+        width: 50%;
+    }
+    .banner-section {
+        padding-top: 200px;
+        padding-bottom: 130px;
+    }
+    .about .col-three ul li {
+        max-width: 340px;
+    }
+    .footer-bottom .container {
+        max-width: 950px;
+    }
+    .specials-menu .specials-menu-main-column {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 25px;
+    }
+    .feature-section .row .col {
+        width: 100%;
+    }
+    .feature-section .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 25px;
+        column-gap: 25px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .menu-section .menu-row .col {
+      width: 100%;
+    }
+    .menu-section .menu-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .recipes h2 {
+        font-size: 70px;
+    }
+    .contact .col2 {
+        padding: 70px 50px;
+    }
+    .blog-section .row {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+    .footer-section .container .row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .blog-section .blog-section-title {
+        margin-bottom: 25px;
+    }
+}
